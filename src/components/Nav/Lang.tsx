@@ -15,11 +15,14 @@ export const Lang = () => {
   };
 
   return (
-    <div className="group flex items-center">
-      <button>{lang}</button>
-      <ul className="gap-2 flex">
+    <div className="group flex items-center gap-3">
+      <p className="text-secondary">{lang}</p>
+      <ul className="gap-2 flex ml-auto">
         {locales.map((lng) => (
-          <li key={lng.code}>
+          <li
+            key={lng.code}
+            className="transition ease-in-out hover:-translate-1 hover:scale-110"
+          >
             <Link href={getPathname(lng.code)}>
               <CountryFlag
                 countryCode={lng.ico}

@@ -1,5 +1,5 @@
 import { Menu } from "@/components/Menu/Menu";
-import { Nav } from "@/components/Nav";
+import Lang from "@/components/Nav/Lang";
 import { i18n } from "@/config/i18n.config";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
@@ -26,11 +26,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang={params.lang}>
-      <body className={inter.className}>
-        <Menu />
-        <Nav />
-
-        {children}
+      <body className={`flex flex-col h-screen ${inter.className}`}>
+        <nav className="bg-primary bg-opacity-60 p-4 flex items-center justify-between">
+          <Menu />
+          <Lang />
+        </nav>
+        <main className="h-full w-full bg-secondary text-white">
+          {children}
+        </main>
       </body>
     </html>
   );
