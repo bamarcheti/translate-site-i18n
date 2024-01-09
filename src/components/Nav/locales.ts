@@ -3,6 +3,7 @@ import { i18n } from "@/config/i18n.config";
 export const flag = {
   "en-US": "US",
   "pt-BR": "BR",
+  "es-ES": "ES",
 };
 
 export type FlagKey = keyof typeof flag;
