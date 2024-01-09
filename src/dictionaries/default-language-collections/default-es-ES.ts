@@ -4,6 +4,6 @@ export const esEs = {
     description: "es-es",
   },
   "Welcome {{name}}": "Bienvindo {{name}}",
-  "Birth: {{nascimento}}": "Nacimiento: {{nascimento}}",
-  "Age: {{idade}}": "Edad: {{idade}}",
+  "Birth: {{birth}}": "Nacimiento: {{birth}}",
+  "Age: {{age}}": "Edad: {{age}}",
 };

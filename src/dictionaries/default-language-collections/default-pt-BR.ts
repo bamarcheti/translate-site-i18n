@@ -4,6 +4,6 @@ export const ptBR = {
     description: "pt-br",
   },
   "Welcome {{name}}": "Bem-vindo(a) {{name}}",
-  "Birth: {{nascimento}}": "Nascimento: {{nascimento}}",
-  "Age: {{idade}}": "Idade: {{idade}}",
+  "Birth: {{birth}}": "Nascimento: {{birth}}",
+  "Age: {{age}}": "Idade: {{age}}",
 };

@@ -4,6 +4,6 @@ export const enUS = {
     description: "en-us",
   },
   "Welcome {{name}}": "Welcome {{name}}",
-  "Birth: {{nascimento}}": "Birth: {{nascimento}}",
-  "Age: {{idade}}": "Age: {{idade}}",
+  "Birth: {{birth}}": "Birth: {{birth}}",
+  "Age: {{age}}": "Age: {{age}}",
 };
