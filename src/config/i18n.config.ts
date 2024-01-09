@@ -1,5 +1,5 @@
-const defaultLocale = "pt-BR";
-const langs = [defaultLocale, "en-US", "es-ES"] as const;
+const defaultLocale = "en-US";
+const langs = [defaultLocale, "pt-BR"] as const;
 
 const locales = langs as unknown as string[];
 export const i18n = { defaultLocale, locales, localeDetection: true };

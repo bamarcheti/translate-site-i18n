@@ -1,6 +1,6 @@
 export const ptBR = {
   site: {
-    name: "Tradução Site",
+    title: "Tradução Site",
     description: "pt-br bbbbbbbbbbbbbbbbbb",
   },
   "Welcome {{name}}": "Bem-vindo {{name}}",

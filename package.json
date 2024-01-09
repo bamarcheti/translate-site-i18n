@@ -1,5 +1,5 @@
 {
-  "name": "translate-site-i18n-i18n",
+  "name": "translate-site-i18n",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "next": "14.0.4",
     "next-intl": "^3.4.1",
     "react": "^18",
+    "react-country-flag": "^3.1.0",
     "react-dom": "^18",
     "server-only": "^0.0.1"
   },

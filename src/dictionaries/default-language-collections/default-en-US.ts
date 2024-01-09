@@ -1,6 +1,6 @@
 export const enUS = {
   site: {
-    name: "Translate Site",
+    title: "Translate Site",
     description: "en-us aaaaaaaaaaaaaaaaaa",
   },
   "Welcome {{name}}": "Welcome {{name}}",
