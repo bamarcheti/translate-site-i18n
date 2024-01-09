@@ -16,12 +16,12 @@ export default function Home({ params }: { params: { lang: Locale } }) {
         </h2>
         <div className="flex flex-col items-center gap-2">
           <h3>
-            {interpolation(dictionary["Nascimento: {{nascimento}}"], {
+            {interpolation(dictionary["Birth: {{nascimento}}"], {
               nascimento: "05/01/1994",
             })}
           </h3>
           <h3>
-            {interpolation(dictionary["Idade: {{idade}}"], {
+            {interpolation(dictionary["Age: {{idade}}"], {
               idade: 29,
             })}
           </h3>

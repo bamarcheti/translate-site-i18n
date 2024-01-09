@@ -1,9 +1,9 @@
 export const ptBR = {
   site: {
     title: "Tradução Site",
-    description: "pt-br bbbbbbbbbbbbbbbbbb",
+    description: "pt-br",
   },
   "Welcome {{name}}": "Bem-vindo(a) {{name}}",
-  "Nascimento: {{nascimento}}": "Nascimento: {{nascimento}}",
-  "Idade: {{idade}}": "Idade: {{idade}}",
+  "Birth: {{nascimento}}": "Nascimento: {{nascimento}}",
+  "Age: {{idade}}": "Idade: {{idade}}",
 };
